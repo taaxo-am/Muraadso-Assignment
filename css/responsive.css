@@ -1,0 +1,219 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .left-lines-mobile {
+    display: none;
+  }
+  .right-lines-mobile {
+    display: none;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .hero {
+    text-align: left;
+  }
+  .hero p {
+    padding: 0px;
+  }
+  .hero-info {
+    order: 1;
+  }
+  .hero-img {
+    order: 2;
+    margin-top: 1.5rem;
+  }
+  .hero {
+    height: 50rem;
+    padding: 3rem 0;
+  }
+  .hero-info h1 {
+    font-size: 5rem;
+    padding: 2rem 0 2rem 0;
+    line-height: 5.2rem;
+  }
+  .left-lines-desktop {
+    position: absolute;
+    top: 51rem;
+    left: 0;
+    z-index: 0;
+  }
+  .right-lines-desktop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9;
+  }
+  .hero-mobile-img {
+    display: none;
+  }
+  .banner {
+    background-image: url("/assets/bg-pattern-how-we-work-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .hero {
+    text-align: left;
+  }
+  .hero p {
+    padding: 0px;
+  }
+  .hero-info {
+    order: 1;
+  }
+  .hero-img {
+    order: 2;
+    margin-top: 0.5rem;
+  }
+  .hero {
+    height: 60rem;
+    padding: 10rem 0;
+  }
+  .hero-border {
+    width: 15rem;
+    height: 0.1rem;
+    margin-top: 0.4rem;
+  }
+  .hero-info h1 {
+    font-size: 7rem;
+    padding: 6.4rem 0 2.7rem 0;
+    line-height: 6.3rem;
+  }
+  .nav-item a {
+    margin: 0 1.1rem;
+    color: #898889;
+  }
+  .nav-item a:hover {
+    color: #2C2830;
+  }
+  .nav-button a {
+    border: 0.2rem solid #2C2830;
+    min-width: 14.5rem;
+    padding: 0.9rem;
+    color: #2C2830;
+    margin: 0 0 0 2rem;
+  }
+  .nav-button a:hover {
+    background-color: #2C2830;
+    color: #fff;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+  .hero-img {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  .left-lines-desktop {
+    display: none;
+  }
+  .right-lines-desktop {
+    display: none;
+  }
+  .hero-desktop-img {
+    display: none;
+  }
+  .about {
+    text-align: center;
+  }
+  .about-border {
+    margin: 0 auto;
+  }
+  .about-box img {
+    margin: 0 auto;
+  }
+  .banner-button {
+    float: none;
+  }
+  footer {
+    text-align: center;
+  }
+  .footer-header img {
+    margin: 0 auto;
+  }
+  .footer-social {
+    margin: 0 auto;
+    display: block;
+    padding-top: 3rem;
+  }
+  .about h2 {
+    font-size: 4.6rem;
+    margin: 5rem 0;
+  }
+  .about-box {
+    margin: 2.5rem;
+  }
+  .banner {
+    margin: 11rem 2.2rem;
+    padding: 7rem 1rem 0 1rem;
+    background-image: url("/assets/bg-pattern-how-we-work-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+  .banner h4 {
+    font-size: 3.8rem;
+    line-height: 4rem;
+  }
+  footer {
+    padding-top: 8.1rem;
+    background-image: url("/assets/bg-pattern-footer-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+  .footer-column {
+    margin: 3.2rem 0 0 0;
+  }
+  .footer-column ul li p {
+    margin: 0rem 0 0rem 0;
+  }
+}
+@media (max-width: 992px) {
+  .navbar-collapse {
+    position: fixed;
+    left: 0;
+    top: 8.1rem;
+    width: 100%;
+    background-color: #2C2830;
+    padding-top: 2.5rem;
+  }
+  .navbar-nav  {
+    width: 100%;
+    height: 92.8vh;
+    background-color: #2C2830;
+    text-align: center;
+    background-image: url("/assets/bg-pattern-mobile-nav.svg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    display: block;
+  }
+  .nav-item {
+    margin: 0.9rem 0;
+  }
+  .nav-item a {
+    color: #fff;
+    font-size: 2.0rem;
+    font-weight: 600;
+    padding: 1rem 1.9rem;
+  }
+  .nav-button  {
+    max-height: 6rem;
+    border: 0.2rem solid #fff;
+    width: 30rem;
+    margin: 2rem auto;
+  }
+  .nav-button a:hover {
+    background-color: #fff;
+    color: #2C2830;
+  }
+  .about {
+    padding: 10.4rem 0 3rem 0;
+  }
+}
